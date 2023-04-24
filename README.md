@@ -16,19 +16,19 @@ To get started with this project, you'll need to do the following:
 ## Features
 The Telegram bot has the following features:
 
-`/start` command: Displays a welcome message and brief overview of the store.
-`/help` command: Displays a list of available commands.
-`/upload` command: Opens the static webpage where users can upload documents, such as PDFs or images, to purchase products.
-`/details` command: Displays details about a specific product, such as its price, description, and available variants.
-`/payments` command: Provides information about payment methods accepted by the store.
-`/contact` command: Displays contact information for the store, such as email, phone number, or social media handles.
+1. `/start` command: Displays a welcome message and brief overview of the store.
+2. `/help` command: Displays a list of available commands.
+3. `/upload` command: Opens the static webpage where users can upload documents, such as PDFs or images, to purchase products.
+4. `/details` command: Displays details about a specific product, such as its price, description, and available variants.
+5. `/payments` command: Provides information about payment methods accepted by the store.
+6. `/contact` command: Displays contact information for the store, such as email, phone number, or social media handles.
 
 ## Technologies Used
 This project was built with the following technologies:
 
-Node.js
-Express.js
-Multer
-MongoDB
-Telegram Bot API
+1. Node.js
+2. Express.js
+3. Multer
+4. MongoDB
+5. Telegram Bot API
 
