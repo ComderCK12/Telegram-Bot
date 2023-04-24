@@ -22,7 +22,7 @@ def help(update, context):
     /start - Start the bot
     /help - Help
     /details - Details of Xerox printing
-    /upload - Upload files
+    /upload - Upload your documents
     /payments - Payments
     /contact - Contact Us
     """
@@ -39,8 +39,13 @@ def details(update, context):
     """
     )
     
-# def upload(update, context):
-#     update.message.reply_text()
+def upload(update, context):
+    update.message.reply_text(
+    """Upload your Documents here - https://forms.gle/ycCFtaxeyLDKKFi38
+    """
+    
+    # Ya fir webpage host karke uska link 
+    )
     
 # def payments(update, context):
 #     update.message.reply_text()
@@ -57,7 +62,7 @@ def contact(update, context):
 dispatcher.add_handler(telegram.ext.CommandHandler("start", start))
 dispatcher.add_handler(telegram.ext.CommandHandler("help", help))
 dispatcher.add_handler(telegram.ext.CommandHandler("details", details))
-# dispatcher.add_handler(telegram.ext.CommandHandler("upload", upload))
+dispatcher.add_handler(telegram.ext.CommandHandler("upload", upload))
 # dispatcher.add_handler(telegram.ext.CommandHandler("payments", payments))
 dispatcher.add_handler(telegram.ext.CommandHandler("contact", contact))
 
